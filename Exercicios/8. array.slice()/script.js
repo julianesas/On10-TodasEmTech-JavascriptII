@@ -1,8 +1,8 @@
-const listagemDeFrutas = ["Uva", "Banana", "Manga", "Cajá", "Pinha", "Maçã", "Melão"];
+/*const listagemDeFrutas = ["Uva", "Banana", "Manga", "Cajá", "Pinha", "Maçã", "Melão"];
 
 const selectFrutas = listagemDeFrutas.slice(0, 3);
 
-console.log(selectFrutas);
+console.log(selectFrutas);*/
 
 
 const usuarios = [

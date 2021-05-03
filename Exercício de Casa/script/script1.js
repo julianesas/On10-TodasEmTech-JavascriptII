@@ -52,15 +52,14 @@ let books = [{
 
 function addLivros() {
 
-    books.map((book) => {
+    let toLinhaTable = books.map((book) => {
         const parseSubtitle = !book.subtitle ? "-" : book.subtitle;
         const parsePages = !book.pages ? "-" : book.pages;
         const parseData = new Date(book.published);
         const data = parseData.setDate(parseData.getDate() + 1);
         const dataFormatada = parseData.toLocaleDateString('pt-br');
 
-        document.getElementById('texto').innerHTML +=
-            `
+        return `
         <tr >
         <td> ${book.title} </td>
         <td> ${parseSubtitle}</td>
@@ -72,6 +71,7 @@ function addLivros() {
         </tr>
         `
     })
+    document.getElementById('texto').innerHTML = toLinhaTable.join("")
 }
 
 addLivros();

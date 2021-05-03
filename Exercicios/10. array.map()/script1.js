@@ -1,3 +1,4 @@
+//Map é usado quando se quer mapear os traduzir todos os elementos do array
 const winners = [{
         nome: 'Equipe maravilinda',
         pais: 'Canadá',

@@ -20,16 +20,18 @@ const usuarios = [
     { user: 239, name: 'Pietra', idade: 23 }
 ]
 
-/*
+
 let somaIdade = 0;
 
 usuarios.forEach((itens) => {
     somaIdade += itens.idade;
 })
 
-console.log(somaIdade);
+console.log(usuarios);
 
-*/
+
+
+/*
 
 const somaIdade = [];
 
@@ -38,3 +40,4 @@ usuarios.forEach((usuarios) => {
 })
 
 console.log(somaIdade);
+*/
